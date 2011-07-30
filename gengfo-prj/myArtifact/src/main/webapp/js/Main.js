@@ -3,8 +3,8 @@ Ext.onReady(function() {
   Ext.Direct.addProvider(Ext.app.REMOTING_API, {
     id: 'pollingTimeProvider',
     type: 'polling',
-    interval: 2000,
-    url: Ext.app.POLLING_URLS.timeChange
+    interval: 100000,
+    url: Ext.app.POLLING_URLS.timeChange    
   });
 
   var directStore = new Ext.data.DirectStore( {
