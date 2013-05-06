@@ -1,4 +1,0 @@
-$ ./script/generate model users
-#---
-$ ./script/generate controller user add delete login logout
-#---

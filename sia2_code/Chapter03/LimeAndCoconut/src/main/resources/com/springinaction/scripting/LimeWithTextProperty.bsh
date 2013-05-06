@@ -1,8 +1,0 @@
-String text;
-void setText(String t) {
-  text = t;
-}
-
-void drink() {
-  System.out.println(text);
-}

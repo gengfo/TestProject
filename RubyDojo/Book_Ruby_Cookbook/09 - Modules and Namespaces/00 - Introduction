@@ -1,5 +1,0 @@
-Class.superclass                                  # => Module
-Math.class                                        # => Module
-Math.new
-# NoMethodError: undefined method `new' for Math:Module
-```#---
